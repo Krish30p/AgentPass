@@ -1,0 +1,21 @@
+{
+  "name": "agentpass",
+  "version": "1.0.0",
+  "description": "Permission and consent system for AI agents",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^9.9.4",
+    "razorpay": "^2.9.8"
+  }
+}
